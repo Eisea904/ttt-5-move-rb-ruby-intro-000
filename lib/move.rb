@@ -13,13 +13,13 @@ end
 
 board = [" ", " ", " "]
 
-def move(board, user_input, char = "X")
+def move(board, converted_input, char = "X")
 
 end
-def update_array_at_with(board, user_input, char = "X")
-  board[user_input] = char
+def update_array_at_with(board, converted_input, char = "X")
+  board[converted_input] = char
 end
 
-update_array_at_with(board, 1, "X")
+update_array_at_with(board, 0, char = "X")
 # The element at index 0 of array 'board' is set to the value "X"
 board #=> ["X", " ", " "]
