@@ -14,12 +14,7 @@ end
 board = [" ", " ", " "]
 
 def move(board, index, char = "X")
-
-end
-
-def update_array_at_with(board, index, char = "X")
   board[index] = char
-  return board
 end
 
 update_array_at_with(board, 0, "X")
