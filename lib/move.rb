@@ -18,7 +18,7 @@ def update_array_at_with(board, converted_input, char = "X")
 end
 
 def move(board, converted_input, char = "X")
-  display_board
+  display_board(board)
 end
 
 update_array_at_with(board, 0, char)
