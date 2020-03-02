@@ -1,5 +1,8 @@
 #!/usr/bin/env ruby
 
 require_relative '../lib/move.rb'
+update_array_at_with(board, 0, "X")
+# The element at index 0 of array 'board' is set to the value "X"
+board #=> ["X", " ", " "]
 
 # Code your CLI Here
