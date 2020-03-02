@@ -18,8 +18,9 @@ def update_array_at_with(board, converted_input, char = "X")
 end
 
 def move(board, converted_input, char = "X")
+  display_board
 end
 
-update_array_at_with(board, 0, "X")
+update_array_at_with(board, 0, char)
 # The element at index 0 of array 'board' is set to the value "X"
 board #=> ["X", " ", " "]
