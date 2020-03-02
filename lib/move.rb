@@ -13,11 +13,10 @@ end
 
 board = [" ", " ", " "]
 
-def update_array_at_with(board, index, char = "X")
+def move(board, index, char = "X")
   board[index] = char
-  print board
 end
 
-update_array_at_with(board, 0, "X")
+move(board, 0, "X")
 # The element at index 0 of array 'board' is set to the value "X"
 board #=> ["X", " ", " "]
