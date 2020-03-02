@@ -13,12 +13,12 @@ end
 
 board = [" ", " ", " "]
 
-def update_array_at_with(board, converted_input, char = "X")
-  board[converted_input] = char
+def move(board, index, char = "X")
+  
 end
 
-def move(board, converted_input, char = "X")
-  display_board(board)
+def update_array_at_with(board, index, char = "X")
+  board[converted_input] = char
 end
 
 update_array_at_with(board, 0, char)
