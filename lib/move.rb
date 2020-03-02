@@ -20,7 +20,7 @@ end
 def update_array_at_with(board, index, char = "X")
   board[index] = char
 end
-
+char = "X"
 update_array_at_with(board, 0, char)
 # The element at index 0 of array 'board' is set to the value "X"
 board #=> ["X", " ", " "]
